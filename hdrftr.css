@@ -1,0 +1,151 @@
+<style>
+body, html {
+    height: 100%;
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}    
+  .container-fluid {
+      padding: 60px 50px;bg
+  }
+  .bg-grey {
+      background-color: #e6e6e6;
+  }
+  .logo-small {
+      color: #00264d;
+      font-size: 50px;
+  }
+  #tmrtlogo {
+       width: 120px;       
+    }
+
+  .logo {
+	  
+      color: #00264d;
+      font-size: 200px;
+  }  
+  #nav {
+      padding: 0px 10px ;
+  }
+ .navbar-band {
+      height: 70px;
+  }
+
+.navbar li a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+
+}
+.navbar-toggle {
+  padding: 8px;
+  margin: 20px 10px 20px 0;
+} 
+
+.navbar {      
+      background-color: #00264d;
+      z-index: 9999;
+      border: 0;
+      font-size: 15px !important;
+      line-height: 1.5 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      height:auto;
+      font-family: Montserrat, sans-serif;
+	  position:fixed;
+      
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+      
+  }
+  .navbar-nav li a:hover, .navbar-nav .active a, .navbar-nav .active{
+      color: #00264d !important;
+      background-color: #fff !important;
+	   text-decoration:none;
+      
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+      
+  }
+  footer{
+      background-color: #bfbfbf;
+      font-size: 20px;
+      height:auto;
+      color: #00264d;
+      font-size: 15px !important;            
+      font-family: Montserrat, sans-serif;
+  }  
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+	
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+	
+  }  
+  @media screen and (min-width: 0px) and (max-width: 550px) {/* show it on small screens */
+  .desktop-only { display: none; } 
+  
+	body{margin-top:72px;}  
+	}  
+
+
+
+  @media screen and (min-width: 551px){/* show it on big screens */   
+ .mobile-only { display: none; }  
+}
+  .btn-circle {
+  width: 50px;
+  height: 50px;
+  outline: none;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: #00264d;
+  color: white;
+  cursor: pointer;
+  padding: 14px;    
+}
+/*Social Icons*/
+#social ul{
+  list-style: none;
+}
+
+. icon ul{
+  text-align: center; 
+}
+.icon {
+  margin-right: 20px;
+  display: inline-block;
+  position: relative;  
+  font-size: 36px;
+  color: #00264d;  
+  text-align: center;   
+  padding-bottom: 0px;
+
+
+}
+.icon:hover {  
+  color: #fff;
+}
+
+
+  </style>
