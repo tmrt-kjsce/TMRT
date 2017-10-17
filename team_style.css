@@ -3,13 +3,72 @@ body {
   font-family: 'Roboto';
   font-size: 14px;
 }
+blockquote{
+  display:block;
+  /*background: #fff;*/
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
 
+  border-left: 0px;
 
+}
+img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+@media (max-width: 768px) {
+    p.teamInfo {
+        text-align: none;
+    }
+}
+@media (min-width: 769px) {
+    p.teamInfo {
+        text-align: justify;
+        word-wrap: break-word;
+    }
+}
 
 .container {
   max-width:100%;
+  /*margin: 5px 5px 0 5px;*/
+  /*padding-left: 1px;*/
+  /*padding-right: 5px;*/
 }
 
+
+ h3,p{
+  -webkit-font-size-adjust: 0.5;
+  -moz-font-size-adjust: 0.5;
+  -ms-font-size-adjust: 0.5;
+ }
 
 
 .bg-grey{
