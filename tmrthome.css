@@ -146,4 +146,22 @@
 	}
 }
 
+#becomeSponsor{
+      margin-top: 10px;
+      background-color: #00264d;
+      color: #fff;
+      margin: auto;
+  }
+
+#becomeSponsor:hover{
+      background-color: #fff;
+      color: #00264d;
+  }
+ #center{
+    margin-top: 10px;
+   display: flex;
+     align-items: center;
+  justify-content: center;
+  }
+
   </style>
