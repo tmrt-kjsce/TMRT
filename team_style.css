@@ -62,7 +62,9 @@ blockquote::after{
   /*padding-left: 1px;*/
   /*padding-right: 5px;*/
 }
-
+.team-container {
+  padding: 60px 0 px;
+}
 
  h3,p{
   -webkit-font-size-adjust: 0.5;
