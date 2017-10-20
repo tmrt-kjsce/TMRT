@@ -225,6 +225,7 @@ background-color: #00152b;
   list-style-type: none;
   position: relative;
   padding-left: 10px;
+  text-align: center;
 }
 /*.containerl li:before {
   border-radius: 100%;
