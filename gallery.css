@@ -21,7 +21,7 @@ h1{
   width: 100%; padding: 7px 0;
 }
 
-@media (max-width: 400px) {		
+@media (max-width: 475px) {		
 	.gal {
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
