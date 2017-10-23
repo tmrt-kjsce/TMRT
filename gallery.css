@@ -11,7 +11,7 @@ h1{
     color: #000;
 }
 
-@media (min-width: 476px) {
+@media (min-width: 551px) {
 .gal {
 	-webkit-column-count: 4; /* Chrome, Safari, Opera */
     -moz-column-count: 4; /* Firefox */
@@ -23,7 +23,7 @@ h1{
   width: 100%; padding: 7px 0;
 }
 
-@media (max-width: 475px) {		
+@media (max-width: 550px) {		
 	.gal {
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
