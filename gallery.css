@@ -11,11 +11,13 @@ h1{
     color: #000;
 }
 
+@media (min-width: 476px) {
 .gal {
 	-webkit-column-count: 4; /* Chrome, Safari, Opera */
     -moz-column-count: 4; /* Firefox */
     column-count: 4;	
 	}	
+}
 	
 .gal img{ 
   width: 100%; padding: 7px 0;
