@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TMRT</title>
+    <link rel="icon" type="image/png" href="TMRTlogosqtrans.png" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="hdrftr.css">
+    <link rel="stylesheet" href="team_style.css">
+    <link href="logo-nav.css" rel="stylesheet">
+    
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid" id="nav">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          
+          <div class="navbar-left">
+            <a class="navbar-brand" href="index.html"><img src="logotmrt.png" id="tmrtlogo" alt="logo" style="float:left"/></a>
+          </div>
+          <a href="index.html"><h1 class="brand brand-name navbar-left" style="float:left;font-size:23px;color:#fff;margin-left:15px;margin-top:23px;display:inline;"> <div class="navbar-left desktop-only"> THE MARINE ROBOTICS TEAM</h1></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html#about">ABOUT</a></li>
+            <li><a href="index.html#sponsors">SPONSORS</a></li>
+            <li><a href="index.html#gallery">GALLERY</a></li>
+            <li><a href="https://www.somaiya.edu/kjsce" target="_blank">KJSCE</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid team-container">
+      
+      <div class="col-md-12 col-sm-12 col-xs-12 " >
+        <h1 class="text-center">OUR TEAM</h1>
+        <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h2>SOFTWARE TEAM</h2>
+				<div class="col-md-6 mobile-only">
+					<img src="software.jpg" width="100%">
+				</div>
+<!--                 <h4> <span style="color: #D52D30"> Contact:</span> </h4> <br> -->
+                <p class = "teamInfo"> The software team is responsible for guidance, navigation and control of the AUV. Navigation is carried out using visual feedback and Image Processing(IP) to tackle problems like image distortion underwater and identify objects underwater based on color and contour (shape detection). An autonomous vehicle must be capable of sequencing and scheduling of tasks and thus our software team has a Mission Planning module which prioritizes tasks. Our AUV uses multiple sensors to interact with the surroundings and we need to calibrate the sensors, validate our codes and filter sensor data- we do simulation on Gazebo and ROS to save time and improve quickly.</p>
+              </div>
+              <div class="col-md-6 desktop-only">
+                <img src="software.jpg" width="100%">
+              </div>
+            </div>
+            </div> <!-- end of div container-->
+            <div class="panel">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                  SOFTWARE TEAM
+                </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <ul class="containerl" >
+                    <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Ayush Shukla</h2></li>
+                    <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Akshay Shasheendran</h2></li>
+                    <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Atul Ramkrishnan</h2></li>
+                    <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Dhruvil Jhaveri</h2></li>
+                    <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Dhwani Shah</h2></li>
+                    <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Hardik Chodvaidya</h2></li>
+                    <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Niraj Gujarathi</h2></li>
+                    <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Sudhanva Vaidya</h2></li>
+                  </ul>
+                </div>
+                
+              </div>
+              </div>     <!-- end of panel body-->
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6" >
+                    <img src="electronics.jpg" width="100%">
+                  </div>
+                  <div class="col-md-6" id = "break">
+                    <h2>ELECTRONICS TEAM</h2>
+<!--                     <h4> <span style="color: #D52D30"> Contact:</span> </h4> <br> -->
+                    <p class = "teamInfo">The electronic systems in the vehicle act as platform for software systems to be executed. The processing platforms are chosen based on the basic needs of vision processing, controls and power management. Electronic Speed Control (ESC) boards are used to drive all the thrusters which will be connected with motherboard; a Single Board Computer (SBC) is being used as motherboard of the system along with power management board. The hardware architecture is designed with emphasis on modularity and scalability in the future. 
+</p>
+                  </div>
+                </div>
+                </div>  <!-- end of div container-->
+                <div class="panel">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      ELECTRONICS TEAM
+                    </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <ul class="containerl ">
+                        <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Prithvi Mehta</h2></li>
+                        <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Shivam Panwar</h2></li>
+                      </ul>
+                    </div>
+                  </div>
+                  </div>  <!-- end of panel -->
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2>MECHANICAL TEAM</h2>
+						<div class="col-md-6 mobile-only">
+							<img src="mechanical.jpg" width="100%">
+						</div>
+<!--                         <h4> <span style="color: #D52D30"> Contact:</span> </h4> <br> -->
+                        <p  class = "teamInfo">Mechanical systems act as a basic framework of bot which involves controlling the factors affecting the degrees of freedom of bot. The chassis is designed keeping in mind the relationships between geometry and relative motion of the parts of the machine. Materials are chosen on the basic needs of weight distribution, buoyancy, and durability. Manufacturing techniques involve 3D printing, lathe machining, CNC Milling, laser cutting and waterjet cutting. Model has been developed on Solidworks and extensively tested on ANSYS .
+</p>
+                      </div>
+                      <div class="col-md-6 desktop-only">
+                        <img src="mechanical.jpg" width="100%">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                      <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        MECHANICAL TEAM
+                      </a>
+                      </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                      <div class="panel-body">
+                        <ul class="containerl ">
+                          <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Abhinav Baburaj</h2></li>
+                          <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Atharva Iwarkar</h2></li>
+                          <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Jatin mayekar</h2></li>
+                          <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Kanak Manghi</h2></li>
+                          <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Ninad Khobrekar</h2></li>
+                          <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Parth Thakkar</h2></li>
+                          <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Rushil Thirani</h2>
+                          <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Vatsal Shah</h2></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of panel -->
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img src="marketing.jpeg" width="100%">
+                        </div>
+                        <div class="col-md-6">
+                          <h2>MARKETING TEAM</h2>
+<!--                           <h4> <span style="color: #D52D30"> Contact:</span> </h4> <br> -->                          
+                          <p class = "teamInfo">Our primary goal is to bring in funds. The funds that are brought in are needed for two of the most important activities of our team - primarily, for building the AUV i.e. utilized in buying equipments and providing training resources to the team members. Once this aspect has been taken care of we start fueling our reserves so that we have enough cash for participating in various international competitions- this cost includes travel, accommodation and registration fees of the team members.
+Some of the challenges we grapple with are answering questions like- Where should we get the money from? How do we keep a tab on the tech-team for their expenses? How much should be raised for long term plans? How can we build a platform so that there is effective communication between the team and our sponsors?
+But alongside that, we also work to make sure that the team functions smoothly and the tech- junkies don’t burn out! We are the team’s main source of communication with the outside world.
+</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel">
+                      <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          MARKETING TEAM
+                        </a>
+                        </h4>
+                      </div>
+                      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body">
+                          <ul class="containerl ">
+                            <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Dhruvi Vadalia</h2></li>
+                            <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Janam Mehta</h2></li>
+                            <li class="col-md-6 col-xs-12" ><h2 id="flood-right">Vivek Mange</h2></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of panel -->
+                  </div>
+                  <!-- end of #accordion -->
+                </div>
+                <!-- end of wrap -->
+              </div>
+              <!-- end of main container -->
+              <script  src="team.js"></script>
+              <a href="#myPage" title="To top"><button type="button" class="btn btn-default btn-circle btn-lg"><i class="glyphicon glyphicon-chevron-up"></i></button></a>
+              <footer class="text-center">
+                <div id="social" class="icon" style="text-align: center;">
+                  <ul>       
+        <a href="https://www.facebook.com/TMRTKJSCE/" target="_blank" class="icon"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://twitter.com/TMRTKJSCE/" target="_blank" class="icon"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://www.linkedin.com/company/13397994/" target="_blank" class="icon"><i class="fa fa-linkedin-square"></i></a>
+    </ul>
+                </div>
+                <br>Made by TMRT Web Team
+              </footer>
+              <script>
+              //Closing the collapse on navbar onclick
+              $('.navbar-collapse a').click(function(){
+              $(".navbar-collapse").collapse('hide');
+              });
+              $(document).ready(function(){
+              // Add smooth scrolling to all links in navbar + footer link
+              $(" a[href='#myPage'] ").on('click', function(event) {
+              // Make sure this.hash has a value before overriding default behavior
+              if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+              // Store hash
+              var hash = this.hash;
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+              scrollTop: $(hash).offset().top
+              }, 900, function(){
+              
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+              });
+              } // End if
+              });
+              
+              window.onscroll = function() {scrollFunction()};
+              function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
+              } else {
+              document.getElementById("myBtn").style.display = "none";
+              }
+              }
+              // When the user clicks on the button, scroll to the top of the document
+              $(window).scroll(function() {
+              $(".slideanim").each(function(){
+              var pos = $(this).offset().top;
+              var winTop = $(window).scrollTop();
+              if (pos < winTop + 600) {
+              $(this).addClass("slide");
+              }
+              });
+              });
+              })
+              </script>
+            </body>
+          </html>

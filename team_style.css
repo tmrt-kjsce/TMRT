@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+blockquote{
+  display:block;
+  /*background: #fff;*/
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+
+  border-left: 0px;
+
+}
+img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+@media (max-width: 768px) {
+    p.teamInfo {
+        text-align: none;
+    }
+}
+@media (min-width: 769px) {
+    p.teamInfo {
+        text-align: justify;
+        word-wrap: break-word;
+    }
+}
+
+.container {
+  max-width:100%;
+  /*margin: 5px 5px 0 5px;*/
+  /*padding-left: 1px;*/
+  /*padding-right: 5px;*/
+}
+
+.team-container{
+  padding: 60px 0px;
+}
+
+ h3,p{
+  -webkit-font-size-adjust: 0.5;
+  -moz-font-size-adjust: 0.5;
+  -ms-font-size-adjust: 0.5;
+ }
+
+
+.bg-grey{
+      background-color: #e6e6e6;
+  }
+
+.wrap {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+a:focus,
+a:hover,
+a:active {
+  outline: 0;
+  text-decoration: none;
+}
+
+.panel {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  height: auto;
+  overflow-y: auto;  
+  background: none;
+  box-shadow: none;
+}
+
+.panel:last-child {
+  border-bottom: none;
+}
+
+.panel-group > .panel:first-child .panel-heading {
+  border-radius: 4px 4px 0 0;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
+.panel-heading {
+  background-color: #00264d;
+  border-radius: 0;
+  border: none;
+  color: #fff;
+  padding: 0;
+}
+
+.panel-title a {
+  display: block;
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.panel-body {
+  background: #fff;
+}
+
+.panel:last-child .panel-body {
+  border-radius: 0 0 4px 4px;
+}
+
+.panel:last-child .panel-heading {
+  border-radius: 0 0 4px 4px;
+  -webkit-transition: border-radius 0.3s linear 0.2s;
+  transition: border-radius 0.3s linear 0.2s;
+}
+
+.panel:last-child .panel-heading.active {
+  border-radius: 0;
+  -webkit-transition: border-radius linear 0s;
+  transition: border-radius linear 0s;
+}
+/* #bs-collapse icon scale option */
+
+.panel-heading a:before {
+  content: '\e146';
+  position: absolute;
+  font-family: 'Material Icons';
+  right: 5px;
+  top: 10px;
+  font-size: 24px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.panel-heading.active a:before {
+  content: ' ';
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#bs-collapse .panel-heading a:after {
+  content: ' ';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Material Icons';
+  right: 5px;
+  top: 10px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#bs-collapse .panel-heading.active a:after {
+  content: '\e909';
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* #accordion rotate icon option */
+
+#accordion .panel-heading a:before {
+  content: '\e316';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'Material Icons';
+  right: 5px;
+  top: 10px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#accordion .panel-heading.active a:before {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#accordion .panel-heading a:hover {
+background-color: #00152b;
+}
+
+.containerl li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 10px;
+  text-align: center;
+}
+/*.containerl li:before {
+  border-radius: 100%;
+  position: absolute;
+  background: #000;
+  content: '';
+  height: 5px;
+  width: 5px;
+  top: 6px;
+  left: 0;
+}
+*//*.containerl li:nth-child(even) {
+  padding-right: 10px;
+  text-align: right;
+  padding-left: 0;
+}*/
+/*.containerl li:nth-child(even):before {
+  left: auto;
+  right: 0;
+}*/
+
+/*#flood-right {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  -webkit-box-shadow: inset 0 0  0px    #00264d;
+  -moz-box-shadow: inset  0 0  0px   #00264d;
+  -ms-box-shadow: inset  0 0 0px   #00264d;
+  -o-box-shadow: inset  0 0  0px   #00264d;
+  box-shadow: inset 0 0   0px   #00264d;
+  color: black;
+  overflow: hidden;
+}
+#flood-right:hover {
+  color: white;
+  -webkit-box-shadow: inset  0 0  600px    #00264d;
+  -moz-box-shadow: inset 0 0 600px  #00264d;
+  -ms-box-shadow: inset 0 0 600px  #00264d;
+  -o-box-shadow: inset 0 0  600px  #00264d;
+  box-shadow: inset 0 0 600px  #00264d;
+}*/
+
+
+#flood-right {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  -webkit-box-shadow: inset 0px 0 0 0  #00264d;
+  -moz-box-shadow: inset 0px 0 0 0  #00264d;
+  -ms-box-shadow: inset 0px 0 0 0  #00264d;
+  -o-box-shadow: inset 0px 0 0 0  #00264d;
+  box-shadow: inset 0px 0 0 0  #00264d;
+  color: black;
+  overflow: hidden;
+}
+h2#flood-right {
+    font-size: large;
+}
+#flood-right:hover {
+  color: white;
+  -webkit-box-shadow: inset 0 0 600px 0  #00264d;
+  -moz-box-shadow: inset 0 0 600px 0   #00264d;
+  -ms-box-shadow: inset 0 0 600px 0   #00264d;
+  -o-box-shadow: inset 0 0 600px 0   #00264d;
+  box-shadow: inset 0 0 600px 0   #00264d;
+}
+
+/*#flood-right {
+  @include transition(.25s ease-in-out);
+  @include boxShadow(inset 0px 0 0 0  #00264d);
+  color:rgba(0,0,0,.1);
+  overflow:hidden;
+  &:hover {
+    color:white;
+    @include boxShadow(inset 600px 0 0 0  #00264d);
+  }
+}*/
